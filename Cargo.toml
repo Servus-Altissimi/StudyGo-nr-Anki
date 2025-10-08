@@ -1,0 +1,10 @@
+[package]
+name = "studygo-to-anki"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+scraper = "0.18"
+reqwest = { version = "0.11", features = ["blocking"] }
+tokio = { version = "1", features = ["full"] }
+headless_chrome = "1.0"
